@@ -9,7 +9,7 @@ input.addEventListener("keypress", function(event) {
 
 function pressed() { 
   var text = parseInt(document.getElementById("inp1").value);
-    output.innerHTML =  (Math.round(text * 30) / 90).toFixed(0)
+    output.innerHTML = "Par Level = " + (Math.round(text * 30) / 90).toFixed(0)
 
 }
 
@@ -25,6 +25,6 @@ input.addEventListener("keypress", function(event) {
 
 function pressed1() { 
   var text1 = parseInt(document.getElementById("inp2").value);
-    output1.innerHTML = (Math.round(text1 * 15) / 90).toFixed(0)
+    output1.innerHTML = "Par Level = " + (Math.round(text1 * 15) / 90).toFixed(0)
 
 }
